@@ -3,12 +3,13 @@ Educational purposes only
 
 
 ## OSINT Tool: Username / Phone / Email Investigation (Ethical Use Only)
-Author: OSINT Tool (improved)
-Purpose:
+
+#### Purpose:
   - Check usernames across many public platforms (non-invasive)
   - Check phone numbers against messaging URL endpoints (non-invasive, many require manual verification)
   - Query breach APIs (HaveIBeenPwned) if API key provided (optional)
-Features:
+
+#### Features:
   - CLI: username / phone / email modes (any combination)
   - Concurrency with ThreadPoolExecutor
   - Requests session pooling + retries
